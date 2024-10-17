@@ -2,3 +2,4 @@
 # ไว้กันไม่ให้ github อัพไฟล์ที่ไม่จำเป็นขึ้น cloud
 db.js
 node_modules
+setting.env
