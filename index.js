@@ -7,7 +7,6 @@ const app = express();
 const port = process.env.WEB_PORT;
 const projectName = process.env.PROJECT_NAME;
 
-import alive from './utils/alive.js';
 import prefixRoutes from './routes/prefixRoutes.js'
 // import exampleRoutes from './routes/exampleRoutes.js'
 
@@ -21,7 +20,7 @@ app.use('/api/prefixs', prefixRoutes);            // localhost:4200/api/prefixs/
 
 // Base route
 app.get('/', (req, res) => {
-  res.send(alive);
+  res.send("HELLO");
 });
 
 // Start the server
